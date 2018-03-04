@@ -1,0 +1,304 @@
+.pageBackground{
+    background-color: #D9D9DA;
+}
+.center{
+    position:absolute;
+    left: 25%;
+    right: 25%;
+    /*margin-left:-390px;*/
+    background: #a1dede;
+    /*padding: 10px;*/
+    max-width: 1150px;
+    min-width: 1150px;
+    border-style: double;
+    border-color: #27272E;
+}
+@media screen and (max-width: 1700px) {
+    .center{
+        background: #a1dede;
+        left: 10%;
+        right: 10%;
+        max-width: 1150px;
+        min-width: 1150px;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .center{
+        background: #a1dede;
+        left:auto;
+        right:auto;
+        max-width: 1150px;
+        min-width: 1150px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .center{
+        background: #a1dede;
+        left:auto;
+        right:auto;
+        max-width: auto;
+    }
+}
+@media screen and (max-width: 500px) {
+    .center{
+        background: #a1dede;
+        left:auto;
+        right:auto;
+        max-width: auto;
+    }
+}
+
+
+/* banner is inside .center */
+.banner {
+    /*position:absolute;*/
+    background: #001a00;
+    margin: 0px 0px 5px 0px;
+    padding: 10px 5px 0px 5px;
+}
+
+/* nav bar style  adapted for educational use from 
+http://css-snippets.com/simple-horizontal-navigation/ 
+
+Note: On my machine (Mac OS) this styling works with 
+Safari but not in Chrome */
+
+.nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a:active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 500px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  } 
+
+    
+    
+    /* This styles each color box in the palette */
+#palette span {
+    display:inline-block;
+    height:50px;
+    width:50px;
+    box-shadow: 1px 1px 2px 1px #333;
+    margin: 5px;
+}
+
+.wall {
+    padding: 20px 20px 20px 20px;
+}
+@media screen and (max-width: 600px) {
+    .wall{
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+}
+.wallBlock {
+        padding: 20px 20px 20px 20px;
+        margin: 20px 20px 20px 20px;
+        background: #ecf8f8;
+        border-radius: 10px;  
+}
+@media screen and (max-width: 600px) {
+.wallBlock {
+        padding: 10px 10px 10px 10px;
+        margin: 5px 5px 5px 5px;
+        background: #ecf8f8;
+        border-radius: 10px;
+    }
+}
+.wallImages {
+    padding: 10px 10px 10px 10px;
+    max-width:100%;
+    max-width:100%;
+}
+#imgShopFront,
+#trickImage,
+#shopImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+        
+}
+#deckImg {
+      border-radius: 10px;  
+    }
+#logoImg {
+    width: 100%;
+    height: 75%;
+}
+#fontset h1,
+#fontset h2,
+#fontset h3,
+#fontset h4
+{
+    font-family: 'Fontdiner Swanky', arial, sans-serif;
+    max-width: 1020px;
+}
+#fontset h1 {
+    font-size: 4em;
+    max-width: 1020px;
+}
+#fontset h2 {
+    font-size: 3.3em;
+    max-width: 1020px;
+}
+#fontset h3 {
+    font-size: 2.5em;
+    max-width: 1020px;
+}
+#fontset h4 {
+    font-size: 1.8em;
+    max-width: 1020px; 
+}
+#fontset .main
+{
+    font-family: Oregano, sans-serif;
+    font-size: 1.5em;
+}
+.footerStyle {
+    background-color: #066;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 25px;
+}
+@media screen and (max-width: 600px) {
+#fontset {
+        padding: 10px 10px 10px 10px;
+        margin: 5px 5px 5px 5px;
+        background: #ecf8f8;
+        width:100%;
+    }
+}
+#deckButton,
+#trucksButton,
+#wheelsButton
+{
+    border-style: ridge;
+    border-width: medium;
+    border-color: #066;
+    background: #BCEEBC;
+    box-shadow: 10px 10px 5px grey;
+    padding: 50px;
+    border-radius: 50px;
+    
+}
+#deckButton:hover {
+    opacity: 0.8;
+}
+#trucksButton:hover {
+    opacity: 0.8;
+}
+#wheelsButton:hover {
+    opacity: 0.8;
+}
+.table {
+     margin-left: 30px
+}
+.cell:hover #deckButton {
+    color: red;
+}
+.row {
+    width:50%;
+    height:50%;
+    padding: 0px 50px, 25px,50px;
+    }
+.cell {
+    /*max-width:50%;
+    max-height:50%;*/
+    padding: 50px;;  
+} 
+#deckPic,
+#truckPic,
+#wheelsImg {
+    border-radius: 10px;
+    background-color: white;
+    padding; 20px;
+    height: 50%;
+    width: auto;
+    }
+#deckItemSale,
+#wheelsItemSale,
+#trucksItemSale {
+    border-style: ridge;
+    border-width: medium;
+    border-color: #066;
+    background: #BCEEBC;
+    box-shadow: 10px 10px 5px grey;
+    padding: 70px;
+    margin: 50px;
+    border-radius: 50px;
+    }
+#veiwCartButton {
+    position: relative; 
+    float: right;   
+}
+#cartItem {
+    /*border: 1px solid black;*/
+    /*width: 50%;*/
+    }
+#cartRow {
+    /*width: 100%;*/
+    padding: 15px;
+}
+#cartCell {
+    /*border: 1px solid black;*/
+    width: 50%;
+    height: px;
+    padding-right: 60px;
+    text-align: left;
+}
+/*#cartRow:nth-child(even) {
+    background-color: #f2f2f2;
+    }*/
+#cartImg {
+ 	height: 60px;
+ 	width: 50px;
+
+}
+ .container {
+    width: 500px;
+    clear: both;
+}
+.container input {
+    width: 100%;
+    clear: both;
+}
